@@ -1,0 +1,6 @@
+{
+"cmd": ["g++.exe","-std=c++1y", "${file}", "-o", "$file_path/run.exe", "&&" , "$file_path/run.exe<input.txt>output.txt"],
+"shell":true,
+"working_dir":"$file_path",
+"selector":"source.cpp"
+}
